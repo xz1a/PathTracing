@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{15f72a06-3d80-47a7-b61d-6d0ee31eb25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Camera">
+      <UniqueIdentifier>{902eafcf-a359-4b51-8d5c-1e5ee755dc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Hittable">
+      <UniqueIdentifier>{a8de8339-6126-4678-8f6e-17374f46c706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\World">
+      <UniqueIdentifier>{e5fbfbff-69be-4728-8c43-0b9b50be19cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Vector3">
+      <UniqueIdentifier>{069bbe1c-fca2-4de3-b37f-668355fb9971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Vector2">
+      <UniqueIdentifier>{743b16c8-a62a-4b1c-9f87-11c55bd73bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Primitives">
+      <UniqueIdentifier>{5347927e-b293-4ee6-84c6-e4caa1ca7fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Primitives\Triangle">
+      <UniqueIdentifier>{d36d6b39-ba2e-429a-bb75-0df0bf1f0b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Primitives\Sphere">
+      <UniqueIdentifier>{402afd56-0869-4f9f-9baf-4c27565c0b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Materials">
+      <UniqueIdentifier>{9c028452-551a-4515-9428-f6126b188c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Materials\Metal">
+      <UniqueIdentifier>{bc8607d3-4ff5-41ad-a9d0-899b8a2d635a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Materials\Dielectric">
+      <UniqueIdentifier>{b15f957c-6494-40b1-85ff-f154b18da660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Materials\Lambertian">
+      <UniqueIdentifier>{6721a355-6ccd-4339-859c-699ef8acc324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Ray">
+      <UniqueIdentifier>{44bced4f-fa2e-4846-907e-b51c17349aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Primitives\Plane">
+      <UniqueIdentifier>{cabb9bd3-1a3b-44f3-9b0c-e56f13694a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Mesh">
+      <UniqueIdentifier>{e07d625e-16d0-425e-9156-250361137d68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Classes\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Hittable.cpp">
+      <Filter>Classes\Hittable</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Classes\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Classes\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Classes\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Classes\Primitives\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Classes\Primitives\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Dielectric.cpp">
+      <Filter>Classes\Materials\Dielectric</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambertian.cpp">
+      <Filter>Classes\Materials\Lambertian</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Classes\Ray</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Classes\Primitives\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Classes\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Metal.cpp">
+      <Filter>Classes\Materials\Metal</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Classes\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Classes\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Hittable.h">
+      <Filter>Classes\Hittable</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Classes\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Classes\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Classes\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Classes\Primitives\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Dielectric.h">
+      <Filter>Classes\Materials\Dielectric</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambertian.h">
+      <Filter>Classes\Materials\Lambertian</Filter>
+    </ClInclude>
+    <ClInclude Include="HitData.h">
+      <Filter>Classes\Hittable</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Classes\Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Classes\Primitives\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Classes\Primitives\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Classes\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Metal.h">
+      <Filter>Classes\Materials\Metal</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Classes\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
